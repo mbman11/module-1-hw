@@ -2,7 +2,7 @@
 
 # first commit
 
-# I added comments to organize code better, add "id" classes to the <a> link tags so the nav works propery, changed "div" to "header" div
+# I added comments to organize code better, add "id" classes to the <a> link tags so the nav works propery, changed "div" to "header" div, added alt tages to each ofthe images,
 
 # User Story
 
