@@ -2,7 +2,7 @@
 
 # first commit
 
-# I added comments to organize code better, added "id" selectors for the <a> link tags so the nav works propery, changed "div" to "header" div, added alt tags to each ofthe images,
+# I added comments to organize html code better, added "id" selectors for the <a> link tags so the nav works propery, changed "div" to "header" div, added alt tags to each of the images, changed "content" class to "main-content", changed "benefits" class to "right-content-section", removed/commented out redundant css code (Explained why in css comments)
 
 # User Story
 
