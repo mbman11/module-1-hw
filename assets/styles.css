@@ -52,7 +52,6 @@ body {
 }
 /* End Nav Items */
 
-
 /* Header Nav End  */
 
 
@@ -92,6 +91,7 @@ p {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+
 }
 
 .right-content-section {
@@ -105,12 +105,11 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
 
-.benefit-brand {
+
+/* * Removed this code below and targeted multiple classes at once to do the same job with less code */
+
+/* .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
 }
@@ -118,14 +117,22 @@ p {
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
+} */
+
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
+/* End */
 
-.benefit-brand h3 {
+
+
+
+/* * Removed this code below and targeted h3 to do the same job with less code */
+
+/* .benefit-brand h3 {
   margin-bottom: 10px;
   text-align: center;
 }
@@ -133,15 +140,20 @@ p {
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
+} */
+
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
+/* End */
 
-.benefit-brand img {
+
+
+/* Removed this code below and targeted the whole section and img's to do the same job with less code */
+
+/* .benefit-brand img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
@@ -151,18 +163,24 @@ p {
   display: block;
   margin: 10px auto;
   max-width: 150px;
+} */
+
+
+.right-content-section img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
+/* End */
 
-.online-reputation-management {
+
+
+
+
+/* Removed this code below and targeted multiple classes at once to do the same job with less code */
+
+/* .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -179,8 +197,28 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
+ */
 
-.search-engine-optimization img {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* End */
+
+
+
+
+
+
+
+/* Removed this code below and added "main-content img" selector to do the same job with less code */
+
+/* .search-engine-optimization img {
   max-height: 200px;
 }
 
@@ -190,9 +228,23 @@ p {
 
 .social-media-marketing img {
   max-height: 200px;
+} */
+
+.main-content img {
+    max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/* End */
+
+
+
+
+
+
+
+/* Removed this code below and added h2 selector to do the same job with less code */
+
+/* .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -205,14 +257,27 @@ p {
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
+} */
+
+h2 {
+    margin-bottom: 20px;
+  font-size: 36px;
 }
+
+/* End */
+
+
+
+
 
 .footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  font-size: 20px;
 }
+
 
 .footer h2 {
   font-size: 20px;
