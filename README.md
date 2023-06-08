@@ -2,9 +2,7 @@
 
 # first commit
 
-# This home work challenge I had to resize the hero image, create image class for the hero image, link a css style sheet, import images, I commented out the original "hero" css because it wasnt needed. 
-
-
+# I added comments to organize html code better, added "id" selectors for the <a> link tags so the nav works propery, changed "div" to "header" div, added alt tags to each of the images, changed "content" class to "main-content", changed "benefits" class to "right-content-section", removed/commented out redundant css code (Explained why in css comments)
 
 # User Story
 
